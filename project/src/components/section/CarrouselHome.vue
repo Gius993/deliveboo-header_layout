@@ -84,7 +84,7 @@
  /* eslint-disable */
  @import "../../assets/sass/variable.scss";
 
-$animationSpeed: 80s;
+$animationSpeed: 40s;
 
 // Animation
 @keyframes scroll {

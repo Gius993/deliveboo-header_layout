@@ -135,9 +135,19 @@
         }
       }
     }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 920px) {
     .search_bar_my{
       width: 10%;
     }
+    .jumbotrone_my{
+      display: none;
+    }
+    .container_my{
+      background-image: url('../../assets/img/jumbotron-deliveboo-wide.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+  }
 }
   </style>
