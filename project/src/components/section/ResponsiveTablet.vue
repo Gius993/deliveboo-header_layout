@@ -5,36 +5,12 @@
 			<a href="#">I Migliori</a>
 		</div>
 		<div class="container_my">
-			<div class="responsive_layout_my">
+			<div class="responsive_layout_my" v-for="(item, index) in items" :key="index">
 				<a href="#">
-					<img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" alt="">
+					<img :src="item.url" alt="">
 				</a>
 			</div>
-			<div class="responsive_layout_my">
-				<a href="#">
-					<img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" alt="">
-				</a>
-			</div>
-			<div class="responsive_layout_my">
-				<a href="#">
-					<img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" alt="">
-				</a>
-			</div>
-			<div class="responsive_layout_my">
-				<a href="#">
-					<img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" alt="">
-				</a>
-			</div>
-			<div class="responsive_layout_my">
-				<a href="#">
-					<img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" alt="">
-				</a>
-			</div>
-			<div class="responsive_layout_my">
-				<a href="#">
-					<img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" alt="">
-				</a>
-			</div>
+			
 		</div>
 
 	</div>
@@ -42,7 +18,41 @@
 /* eslint-disable */   	  
 <script>
  export default {
-		name: 'ResponsiveTablet',
+	name: 'ResponsiveTablet',
+	data() {
+      return {
+       parentMessage: 'Parent',
+            items: [
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+                 { 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+				{ 
+					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
+				},
+		]
+  }
+}
 	}
 </script>
 /* eslint-disable */   	  
