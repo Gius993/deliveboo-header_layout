@@ -47,7 +47,7 @@
     .responsive_my{
       display: none;
     }
-    @media screen and (max-width: 920px) {
+    @media screen and (max-width: 620px) {
     .carrousel_my{
       display: none;
     }

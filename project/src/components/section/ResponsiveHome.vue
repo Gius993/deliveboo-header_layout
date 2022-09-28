@@ -34,7 +34,7 @@
 		flex-direction: column;
 	}
 	.responsive_layout_my{	
-		width: 400px;
+		width: 90%;
 		margin-top: 20px;
 		img{
 			border: 1px solid ;
