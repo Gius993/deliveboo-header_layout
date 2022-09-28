@@ -21,7 +21,7 @@
 	name: 'ResponsiveTablet',
 	data() {
       return {
-       parentMessage: 'Parent',
+       
             items: [
 				{ 
 					url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg' 
