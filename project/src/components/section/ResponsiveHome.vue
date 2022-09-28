@@ -4,7 +4,12 @@
 		<div class="responsive_layout_my">
 
 		</div>
-		
+		<div class="responsive_layout_my">
+
+		</div>
+		<div class="responsive_layout_my">
+
+		</div>
 	</div>
 </template>
 /* eslint-disable */   	  
@@ -17,13 +22,17 @@
 	
 <style scoped lang="scss">
 	.container_my{
+		width: 100%;
 		display: flex;
-		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 	.responsive_layout_my{
-		height: 200px;
-		width: 200px;
+		height: 400px;
+		width: 400px;
 		background-color: brown;
+		border: 1px solid black;
+		margin-top: 10px;
 	}
 
  </style>
