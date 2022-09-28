@@ -40,8 +40,6 @@
   
 
 <style scoped lang="scss">
-
-
   .carrousel_my{
       margin-top: 150px;
       display: flex;
