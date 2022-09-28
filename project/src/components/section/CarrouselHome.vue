@@ -153,5 +153,6 @@ $animationSpeed: 40s;
    }
   }
 
+
 </style>
 	
