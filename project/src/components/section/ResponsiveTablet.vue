@@ -67,5 +67,4 @@
 		color:$secondarycolor ;
 		text-align: center;
 	}
-
  </style>
