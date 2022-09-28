@@ -2,81 +2,12 @@
 <template>
 <div class="slider_my">
 	<div class="slide-track_my">
-		<div class="slide_my">
+		<div class="slide_my" v-for="(carrousel, index) in carrousels" :key="index">
       <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
+        <img :src="carrousel.url" height="100" width="250" alt="" />
       </a>
 		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-		<div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-    <div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-    <div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-    <div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-    <div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
-    <div class="slide_my">
-      <a href="#">
-        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
-      </a>
-		</div>
+
 	</div>
 </div>
 </template>
@@ -86,6 +17,58 @@
 	export default {
 		name: 'CarrouselHome',
 		el: '#app',
+    data() {
+      return{
+        carrousels: [
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+          {
+            url: 'https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg',
+          },
+       
+        ],
+      }
+    }
 }
 </script>
 /* eslint-disable */  	  
