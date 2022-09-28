@@ -67,6 +67,16 @@
         <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
       </a>
 		</div>
+    <div class="slide_my">
+      <a href="#">
+        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
+      </a>
+		</div>
+    <div class="slide_my">
+      <a href="#">
+        <img src="https://www.buttalapasta.it/wp-content/uploads/2017/11/pizza-margherita.jpg" height="100" width="250" alt="" />
+      </a>
+		</div>
 	</div>
 </div>
 </template>
