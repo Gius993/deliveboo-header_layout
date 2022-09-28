@@ -10,7 +10,10 @@
       <CarrouselHome />
       <CarrouselHome />
     </div>
-    <div class="responsive_my">
+    <div class="responsive_my_tb">
+      <ResponsiveTablet />
+    </div>
+    <div class="responsive_my_sp">
         <ResponsiveHome />
     </div>
 	</div>
@@ -21,8 +24,7 @@
   import HeaderHome from './section/HeaderHome.vue';
   import CarrouselHome from './section/CarrouselHome.vue';
   import ResponsiveHome from './section/ResponsiveHome.vue';
-
-
+  import ResponsiveTablet from './section/ResponsiveTablet.vue';  
 
   export default {
 	name: 'HomeUtent',
@@ -30,6 +32,8 @@
     HeaderHome,
     CarrouselHome,
     ResponsiveHome,
+    ResponsiveTablet,
+    
 }
   }
 </script>
@@ -44,14 +48,28 @@
       justify-content: center;
      overflow: hidden;
     }
-    .responsive_my{
+    .responsive_my_sp{
       display: none;
     }
+    .responsive_my_tb{
+      display: none;
+    }
+    @media screen and (max-width: 920px) {
+      .carrousel_my{
+         display: none;
+    }
+    .responsive_my_tb{
+      display:block;
+    }
+}
     @media screen and (max-width: 620px) {
+      .responsive_my_tb{
+        display:none;
+      }
     .carrousel_my{
       display: none;
     }
-    .responsive_my{
+    .responsive_my_sp{
       display: block;
     }
 }

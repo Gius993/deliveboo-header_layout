@@ -49,4 +49,5 @@
 		font-size: 30px;
 		color:$secondarycolor ;
 	}
+
  </style>
